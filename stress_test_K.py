@@ -4,13 +4,14 @@ import random
 
 program = "./K10"
 test_dir = 'gen_tests'
-N_TESTS = 100000
+N_TESTS = 1000
 
 points_min = 1
 points_max = 100
-x_range = [-10, 10]
-repeat_prob = 0.5
-y_range = [-10, 10]
+coord_lim = 10**9
+x_range = [-coord_lim, coord_lim]
+repeat_prob = 0.05
+y_range = [-coord_lim, coord_lim]
 
 random.seed(0)
 
